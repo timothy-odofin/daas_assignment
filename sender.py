@@ -73,7 +73,7 @@ def send_mail(send_from, send_to, subject, text, f=None,
 def processData():
     mergeCsv()
     file =procesExcel()
-    send_mail("from_user","to_user",f=file)  #you can uncomment put the right details.
+    send_mail("from_user","hello@daas.ng",f=file)  #you can uncomment put the right details.
 
 processData()
 
